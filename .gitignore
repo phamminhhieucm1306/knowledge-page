@@ -1,4 +1,3 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
@@ -58,6 +57,11 @@ cover/
 # Django stuff:
 *.log
 local_settings.py
+# Virtual environments
+.venv/
+
+# VS Code settings
+.vscode/
 db.sqlite3
 db.sqlite3-journal
 

@@ -1,0 +1,9 @@
+
+# Core dependencies for document loading and chunking
+langchain
+langchain-community
+langchain-text-splitters
+langchain-core
+pypdf
+docx2txt
+unstructured[md]

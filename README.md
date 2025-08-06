@@ -1,4 +1,32 @@
-# knowledge-page
+# knowledge_page
+
+A knowledge base management tool for onboarding and documentation.
+
+## Project Structure
+
+```
+knowledge-page/
+├── src/
+│   └── knowledge_page/
+│       ├── __init__.py
+│       ├── module1.py
+│       ├── module2.py
+│       └── utils/
+│           ├── __init__.py
+│           └── helpers.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_module1.py
+│   └── test_module2.py
+├── docs/
+│   └── index.md
+├── requirements.txt
+├── pyproject.toml
+├── setup.py
+├── README.md
+├── .gitignore
+└── main.py
+```
 
 ## Setup
 
@@ -9,8 +37,20 @@
    ```
 2. **Install dependencies:**
    ```powershell
-   pip install langchain langchain-community pypdf docx2txt unstructured tiktoken
+   pip install -r requirements.txt
    ```
+
+
+## Usage
+
+- Place your source code in `src/knowledge_page/`.
+- Add tests in `tests/`.
+- Documentation goes in `docs/`.
+- The main entry point for running the app is `main.py`:
+  ```powershell
+  python main.py
+  ```
+  This will print a welcome message and can be extended to run your application logic.
 
 ## How the Workflow Works
 
